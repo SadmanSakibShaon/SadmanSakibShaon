@@ -27,16 +27,15 @@ I'm an **Engineering Student** passionate about building web and mobile applicat
 ---
 
 ## 💻 Projects
-- **[Ghatpar.store](https://github.com/yourusername/ghatpar)** – Real-time grocery delivery platform with multi-role dashboards.  
+- **[Ghatpar.store](https://ghatpar.store)** – Real-time grocery delivery platform with multi-role dashboards.  
 - **[E-Governance Complaint System](https://sadmansakibshaon.github.io/E-Governance-Complaint-Management-System-for-Urban-Municipal-Services/)** – UI built with HTML, CSS, and Tailwind.  
 - **[Social Media Productivity Survey](https://github.com/yourusername/social-media-productivity)** – Analysis of social media impact on student productivity.
 
 ---
 
 ## 📫 Connect with Me
-- [LinkedIn](https://linkedin.com/in/your-linkedin)  
-- [Twitter](https://twitter.com/your-twitter)  
-- [Email](mailto:your.email@example.com)
+- [LinkedIn]([https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/sadmansakibshaon/))   
+- [Email](mailto:sadmansakib9653@gmail.com)
 
 ---
 
