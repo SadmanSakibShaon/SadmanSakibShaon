@@ -46,7 +46,7 @@ I'm an **Engineering Student** passionate about building web and mobile applicat
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=tap+tap+tap." alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=tap+tap+tap..." alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -55,4 +55,4 @@ I'm an **Engineering Student** passionate about building web and mobile applicat
 
 
 
-<p align="center"><b>"Code is like humor. When you have to explain it, it’s bad."</b> 😄</p>
+<p align="center"><b>-Code is like humor. When you have to explain it, it’s bad.</b> 😄</p>
