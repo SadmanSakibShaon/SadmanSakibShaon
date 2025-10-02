@@ -52,6 +52,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 2rem;
+      animation: fadeIn 1s ease-in;
     }
 
     .hero-text {
@@ -99,6 +100,12 @@
       max-width: 380px;
       border-radius: 20px;
       box-shadow: 0 20px 40px rgba(246, 133, 27, 0.35);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
     }
 
     @media (max-width: 768px) {
@@ -114,6 +121,21 @@
       .hero-image img {
         max-width: 300px;
       }
+    }
+
+    section {
+      margin: 3rem 0;
+    }
+
+    section h2 {
+      color: var(--primary-color);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .center {
+      text-align: center;
     }
 
     /* Modal */
@@ -149,6 +171,7 @@
       transform: scale(0.9);
       opacity: 0;
       transition: transform 0.3s ease, opacity 0.3s ease;
+      position: relative;
     }
 
     .modal-overlay.active .modal {
@@ -218,10 +241,16 @@
     .close-btn:hover {
       color: var(--primary-color-dark);
     }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <!-- Hero -->
     <header class="hero">
       <div class="hero-text">
         <h1>Sadman Sakib Shaon</h1>
@@ -236,6 +265,31 @@
         <img src="images/MY.jpg" alt="Sadman Sakib">
       </div>
     </header>
+
+    <!-- Tech Stack -->
+    <section>
+      <h2>🛠️ Technologies & Tools</h2>
+      <div class="center">
+        <img src="https://skillicons.dev/icons?i=js,ts,python,dart,react,next,flutter,tailwind,firebase,git,vscode,androidstudio" />
+      </div>
+    </section>
+
+    <!-- GitHub Stats -->
+    <section>
+      <h2>📈 GitHub Stats</h2>
+      <div class="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=SadmanSakibShaon&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+        <br />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SadmanSakibShaon&layout=compact&theme=tokyonight" alt="Top Languages" />
+      </div>
+    </section>
+
+    <!-- Motto Typing -->
+    <section>
+      <div class="center">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Code+is+like+humor.+When+you+have+to+explain+it,+it's+bad." alt="Typing Animation" />
+      </div>
+    </section>
   </div>
 
   <!-- Modal -->
@@ -256,11 +310,9 @@
     function openModal() {
       document.getElementById("modalOverlay").classList.add("active");
     }
-
     function closeModal() {
       document.getElementById("modalOverlay").classList.remove("active");
     }
-
     window.addEventListener("click", function(e) {
       const modalOverlay = document.getElementById("modalOverlay");
       if (e.target === modalOverlay) {
